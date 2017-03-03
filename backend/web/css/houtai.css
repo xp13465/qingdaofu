@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form,  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;padding: 0;}
+body{font-size: 12px; font-family: "微软雅黑"; }
+/*table{border-collapse:collapse;border-spacing:0;}*/
+li{list-style:none;}
+fieldset,img{border:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+q:before,q:after{content:'';}
+a:focus,input,textarea{/* outline-style:none; */ }
+button{ border:none;}
+input[type="text"],input[type="password"],textarea{outline-style:none;-webkit-appearance:none;}
+textarea{resize:none;}
+address,caption,cite,code,dfn,em,i,th,var,b{font-style:normal;font-weight:normal;}
+legend{color:#000;}
+abbr,acronym{border:0;font-variant:normal;}
+a{color:#0061AC;text-decoration:none;cursor: pointer;}
+a:hover{text-decoration:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clear{clear:both;height:0;font:0/0 Arial;visibility:hidden;}
+.block{display: block;}
+.color{ color: #0061AC;}
+.display{ display: inline-block;*display: inline;*zoom:1;}
+.mr{ margin-top: -5px;}
+.ml{ margin-left: -100px;}
+.pl{ padding-left: 25px;width:950px; background: #fff; letter-spacing: 2px;}
+.error{color:red;}
+.fl{ float: left;}
+.fr{ float: right;}
+
+
+html{ background:#6f9cc6;}
+.houtai{ width:100%;margin:0 auto; }
+.h_left{ width:200px;}
+.houtai .h_menu{ background:#34495e; padding:20px 0; height: 600px;}
+.h_menu a{ font-size: 14px; color:#fff; vertical-align: middle; text-align: left;}
+.h_menu li{ margin-top: 10px;}
+.h_menu li{ text-align: center; height: 50px; line-height: 50px;}
+.h_menu li.current{ background: #233342; line-height: 50px;}
+.h_menu li:hover{ background: #233342; line-height: 50px;}
+.h_menu li span{ display: inline-block;*display: inline;*zoom:1; width:35px; height: 28px; margin-right: 5px; vertical-align: middle;}
+.h_left .h_top{ background: #612e4f; height: 66px; padding-right: 10px; color:#fff;}
+.h_top .t_left{ margin:10px 5px 0 20px;  }
+.h_top .t_right { line-height: 66px; font-size: 14px;}
+
+
+
+.h_right{ width:85%;}
+.h_right .r_top{ height: 65px; background: #ECF0F1; padding-top: 15px;}
+.r_top .pl1{ margin:20px 20px 0 30px; }
+.pl1,.xx{ cursor: pointer;}
+.r_top .logo{ margin-left: 160px;}
+
+
+.h_right .t_center{ background: #fff; padding-top: 20px; height: 80px;}
+.t_center .fl .logo1{ margin-left: 40px; margin-right: 10px;vertical-align: middle;}
+.t_center .fl span{ display: inline-block;*display: inline;*zoom:1;vertical-align: middle; letter-spacing: 1px;}
+.fl span b{ font-weight: bold; color: #000;}
+.fl span i{ vertical-align: middle;}
+.t_center .fr{margin-right: 40px; line-height: 100px;}
+.t_center .fr{ cursor: pointer;}
+
+
+.h_right .r_top{ height: 65px; background: #ECF0F1; padding-top: 15px;}
+.h_bottom{background:#ECF0F1; padding-bottom: 40px; }
+
+
+
+
+
+.table{ width:99%;overflow-x: scroll; }
+.table table{ width:100%; border-collapse: collapse; border: 1px solid #ccc;}
+.table th{ background: #d9dee4; border:none;}
+.table td{border: 1px solid #ccc; }
+.table tr{display: table-row;}
+.table th,.table td{text-align: center; padding: 5px 10px;background: #fff;}
+#NewsList{background: #fff;}
+
+.input1 li{ margin-top: 15px;}
+.input1 { padding:0 40px; width:700px; text-align: center;}
+
+.input1 input{ vertical-align: middle;  height: 25px; line-height: 25px;}
+.input1 label { vertical-align: middle;}
+.btn input{ line-height: 25px; text-align: center;width:100px; background:#0065b3; color: #fff; border:none; }
+
+.fenye { margin:20px auto; text-align: center; height: 50px;}
+.fenye a{ padding:3px 6px; border: 1px solid #ccc; background: #fff; margin-left:5px; color:#333;}
+
+
+
+
+.login{ width:275px; border: 1px solid #ccc; position: absolute; left:50%; top:50%; margin-left: -137px; height:250px;margin-top: -125px;}
+
+.login p{ text-align: center; width:275px; border-bottom: 1px solid #ccc; line-height: 30px; font-size: 16px; color:#000;}
+.login li{ margin-top: 15px; text-align: center;} 
+.login label { display: inline-block; width:55px; text-align: left; font-size: 14px; line-height: 25px; vertical-align: middle;}
+.login input { line-height: 25px; vertical-align: middle; width:150px;}
+.login .btn input{ line-height: 25px; width:210px; background: #0065b3; color: #fff; text-align: center; margin:15px auto; cursor: pointer; }
+
+.fenye { height: 30px; width:100%; margin:0 auto; position: relative;line-height: 30px;}
+.fenye a,.fenye span{ padding:3px 6px; border: 1px solid #ccc; background: #fff; margin-left:5px; color:#333;}
+.fenye ul{ text-align: center; position: absolute; left:70%; margin-left: -35%; overflow:hidden;}
+.fenye li{ float: left; height: 40px; cursor: pointer;}
+

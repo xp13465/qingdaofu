@@ -1,0 +1,31 @@
+{
+    "name": "deesoft/yii2-tools",
+    "description": "Yii2 application tools",
+    "keywords": ["yii2", "state", "event"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/deesoft/yii2-tools/issues",
+        "source": "https://github.com/deesoft/yii2-tools"
+    },
+    "authors": [
+        {
+            "name": "Misbahul Munir",
+            "email": "misbahuldmunir@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dee\\tools\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "dee\\tools\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

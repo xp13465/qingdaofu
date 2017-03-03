@@ -1,0 +1,1 @@
+<?php echo $this->renderFile('@app/views/public/releaseinformation.php',['product'=>$product]);?>

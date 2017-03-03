@@ -1,0 +1,46 @@
+.msgbox_wrapper {
+	font-size: 16px;
+	 line-height: 28px; 
+	border: #0da3f8 1px solid; background-color: #fff; color:#000;overflow: hidden; vertical-align:top;border-radius: 10px;
+}
+.msgbox_title_wrapper {
+	list-style-type:none;margin:0;/*border-top: #aaa 1px solid; height:24px;*/ background-color: #FFF; vertical-align: middle; padding:4px; vertical-align:middle;
+}
+.msgbox_title_wrapper img {
+  	position:static;
+ 	+position:relative;
+  	vertical-align:middle
+}
+
+.msgbox_main p{ margin:0 10px; line-height:20px;}
+.msgbox_title {
+	 float:left; line-height: 22px; height:22px; padding-left: 10px; color: #000; font-size: 12px; font-weight: bold
+}
+.msgbox_close {
+	float:right;line-height:22px; display:table-cell; height:22px; color: #000; font-size: 12px; font-weight: bold; cursor:pointer;padding-right: 8px;
+}
+
+.msgbox_main {
+	text-align: left; /*padding: 20px 30px;*/color: #333; overflow: auto;
+	background: #FFFFFF;
+}
+.msgbox_bg {
+	background: rgba(0,0,0,.6);_filter:alpha(opacity=0.6); filter:alpha(opacity=0.6);
+}
+.msgbox_button {font-size: 16px;
+	border: 1px solid #0da3f8;
+	font-family:"微软雅黑", Courier, monospace;
+	padding:2px 18px;
+	border-radius: 2px;
+	margin-top: 0px;
+	width: 90px;
+	height: 35px;
+	color: #fff;
+	text-align: center;
+	line-height: 27px;
+	background: #0da3f8;
+	cursor: pointer;
+}
+.msgbox_inputbox { font-size: 16px;
+	border: 1px solid #0da3f8; font-family:"微软雅黑", Courier, monospace;padding:2px 18px;border-radius: 4px;margin-top: 15px;
+}

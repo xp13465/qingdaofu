@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{margin:0 ;padding:0;}
+li{list-style: none;}
+/*.bg{position: relative;left:50%;margin-left: -960px;height: 235px;width:100%;}*/
+.bg{background: url(../images/cd_bj.jpg) no-repeat; height: 566px; padding-top: 20px;}
+.myimg{display: inline-block;}
+.contents{overflow: hidden;}
+.h_mid{width: 1000px;margin:0 auto;text-align: center;}
+.mid span{font-size: 20px;line-height:60px;color:#fff;}
+.mid img{display: block;margin:0 auto;}
+.contents li{width: 250px;float: left;margin-left: 60px;margin-top: 40px;}
+.contents div{width: 250px;height: 56px;background-color:#9e9ba0;margin-top: 30px;padding-top: 20px;}
+.copyright01{width: 100%;background-color: #1b467a;height: 68px;line-height: 58px;}
+.copy_m{width: 1000px;margin:0 auto;height: 68px;text-align: center;color:#fff; }
+.copy_m span{display: block; font-size: 16px;}

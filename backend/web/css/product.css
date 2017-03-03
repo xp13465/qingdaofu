@@ -1,0 +1,151 @@
+ul li {list-style:none;}
+
+
+/*-------处理进度------*/
+
+.houses .layui-layer-content .chuli{min-height:245px;background:#fff;}
+.houses .layui-layer-content .chuli .progress{min-height:245px;} 
+.houses .layui-layer-content .chuli .progress .infomation{width:300px;float:left;}
+.houses .layui-layer-content .chuli .progress .infomation p.jie {height:26px;line-height:26px;font-size:14px;color:#666;margin:20px 20px;}
+.houses .layui-layer-content .chuli .progress .infomation p.head {width:60px;height:60px;margin:0 auto;}
+.houses .layui-layer-content .chuli .progress .infomation p.head img {width:60px;height:60px;display:block;border-radius:50%;}
+.houses .layui-layer-content .chuli .progress .infomation p.name {height:26px;line-height:26px;font-size:16px;color:#333;text-align:center;}
+.houses .layui-layer-content .chuli .progress .infomation p.name  a{color:#333;}
+.houses .layui-layer-content .chuli .progress .infomation p.phone {height:26px;line-height:26px;font-size:16px;color:#999;text-align:center;}
+.houses .layui-layer-content .chuli .progress .infomation p.but {height:30px;text-align:center;}
+.houses .layui-layer-content .chuli .progress .infomation p.but a{width:100px;height:30px;padding:0px 5px;margin:20px auto;display:block;line-height:28px;border:1px solid #01a3f6;border-radius:3px;color:#01a3f6;}
+.houses .layui-layer-content .chuli .progress .xqing{float:left;border-left:1px solid #e5e5e5;}
+.houses .layui-layer-content .chuli .progress .xqing .tup{height:50px;}
+.houses .layui-layer-content .chuli .progress .xqing .tup a{width:90px;height:30px;line-height:30px;float:right;text-align:center;padding:0px 5px;margin:10px 20px 0px 0px;border:1px solid #0da3f8;border-radius:3px;text-indent:20px;background: url(../images/details.png) left 9px top -184px no-repeat;}
+.houses .layui-layer-content .chuli .progress .xqing .tup p.title{float:left;font-size:16px;color:#666;margin:20px 20px;} 
+.houses .layui-layer-content .chuli .progress .xqing ul{margin-bottom:10px;overflow:hidden;height:200px;position:relative}
+.houses .layui-layer-content .chuli .progress .xqing ul li{height:auto;}
+.houses .layui-layer-content .chuli .progress .time{width:130px;min-height: 60px;float:left;text-align:center;}
+.houses .layui-layer-content .chuli .progress .time .dates{font-size:12px;color:#333;line-height:34px;    text-align: right;}
+.houses .layui-layer-content .chuli .progress .time .date{font-size:12px;color:#999;line-height:20px;margin-right:10px;}
+.houses .layui-layer-content .chuli .progress .title1{width:755px;height:auto;float:right;text-align:left;}
+.houses .layui-layer-content .chuli .progress .title1 a{font-size:14px;color:#0da3f8;margin:0 5px;}
+.houses .layui-layer-content .chuli .progress .title1 i{z-index:1;background-image:url();width: 50px;height: 31px;position: absolute;text-align:center;padding-top:5px;}
+.houses .layui-layer-content .chuli .progress .title1 i.blue span{background-color:#09a1f7;}
+.houses .layui-layer-content .chuli .progress .title1 i span{margin-top: 8px;border-radius: 30px;width: 10px;height: 10px;display: inline-block;color: white;font-size: 12px;line-height: 34px;}
+.houses .layui-layer-content .chuli .progress .title1 i.system span{	background-color:#dcdcdc;}
+.houses .layui-layer-content .chuli .progress .title1 i.me span{background-color:#dcdcdc;}
+.houses .layui-layer-content .chuli .progress .title1 i.jing span{font-size:0px;background:url(../images/jing.png) center center no-repeat;}
+.houses .layui-layer-content .chuli .progress .title1 i.top{background-color:#f4f4f4;}
+.houses .layui-layer-content .chuli .progress .title1 .message{min-height: 51px;margin-left:25px; border-left: 1px solid #ccc;padding-left: 25px;}
+.houses .layui-layer-content .chuli .progress .title1 .article{font-size:12px;color:#333;line-height:34px;padding:0 5px;word-wrap:break-word; white-space:normal; word-break:break-all;}
+.houses .layui-layer-content .chuli .progress .title1 .article a,.chuli .progress .title3 .article a{font-size:12px;color:#01a3f6;}
+.houses .layui-layer-content .chuli .progress .title1 .blue{color:#09a1f7;}
+.houses .layui-layer-content .chuli .progress .title1 p.system{/*background:#f2f3f7;*/}
+.houses .layui-layer-content .chuli .progress .title1 .art{font-size:14px;color:#999;line-height:30px;}
+.houses .layui-layer-content .chuli .progress .title1 .pig{width:50px;height:50px;margin:5px;display:inline-block;}
+.houses .layui-layer-content .chuli .progress .title1 .pig img{width:50px;height:50px;}
+.houses .layui-layer-content .chuli .progress .read .title1 p,.chuli .progress .read .title3 p{color:#999;}
+.houses .layui-layer-content .chuli .progress .read .time p{color:#999;}
+.houses .layui-layer-content .chuli .progress .title3{width:755px;height:auto;float:right;text-align:left;}
+.houses .layui-layer-content .chuli .progress .title3 i span{	background-color:#76d496 ;border-radius: 30px;width: 10px;height: 10px;display: inline-block;color: white;font-size: 12px;line-height: 26px;}
+.houses .layui-layer-content .chuli .progress .title3 i.system span{	background-color:#dcdcdc;}
+.houses .layui-layer-content .chuli .progress .title3 i.me span{	background-color:#dcdcdc;}
+.houses .layui-layer-content .chuli .progress .title3 i.top{background-color:#f4f4f4;}
+.houses .layui-layer-content .chuli .progress .title3 .message {margin-left:25px; border-left: 0px solid #ccc;padding-left:25px;}
+.houses .layui-layer-content .chuli .progress .title3 i{z-index:1;width: 50px;height: 15px;position: absolute;text-align:center;padding-top:5px;}
+.houses .layui-layer-content .chuli .progress .title3 .article{font-size:12px;/*color:#999;*/line-height:20px;padding:0 5px;}
+.houses .layui-layer-content .chuli .progress .title3 p.system{/*background:#f2f3f7;*/}
+.houses .layui-layer-content .chuli .progress .title3 .pig{margin-left :0px;}
+
+/*--------申请记录-------*/
+.houses .layui-layer-content .shen{min-height:80px;margin:20px auto 20px;background:#fff;border:1px solid #e5e5e5;}
+.houses .layui-layer-content .shen p.title{height:50px;line-height:50px;font-size:14px;border-bottom:1px solid #e5e5e5;text-indent:20px;color:#666;}
+.houses .layui-layer-content .shen p i{color:#01a3f6;}
+.houses .layui-layer-content .shen p.prompt{font-size:18px;color:#333;text-align:center;height:30px;line-height:30px;margin-top:45px;}
+.houses .layui-layer-content .shen p.sub{width:120px;height:35px;line-height:35px;margin:40px auto 35px;text-align:center;}
+.houses .layui-layer-content .shen p.sub a{width:120px;height:35px;line-height:35px;display:block;border-radius:3px;padding:0px 5px;color:#fff;background:#0da3f8;}
+.houses .layui-layer-content .shen table{height:auto;}
+.houses .layui-layer-content .shen table tr{height:50px;line-height:50px;border-bottom:1px solid #e5e5e5;}
+.houses .layui-layer-content .shen table thead tr th p{color:#999;text-align:center;}
+.houses .layui-layer-content .shen table thead tr th p.head{text-align:left;padding:0 20px;}
+.houses .layui-layer-content .shen table tbody tr:hover{background:#edf4fe;}
+.houses .layui-layer-content .shen table tbody tr:last-child{border-bottom:0px solid #e5e5e5;}
+.houses .layui-layer-content .shen table tbody tr.cancel:hover,.shen table tbody tr.cancel td p a:hover{background:none;}
+.houses .layui-layer-content .shen table tbody tr.cancel td p,.shen table tbody tr.cancel td p a{color:#999 !important;}
+.houses .layui-layer-content .shen table tbody tr td p{color:#333;text-align:center;}
+.houses .layui-layer-content .shen table tbody tr td p.head{width:30px;height:30px;text-align:left;margin:0 20px;}
+.houses .layui-layer-content .shen table tbody tr td p.head img{width:30px;height:30px;border-radius:50%;}
+.houses .layui-layer-content .shen table tbody tr td p.fail{color:#f45752;}
+.houses .layui-layer-content .shen table tbody tr td p.meet a{width:100px;height:30px;padding:5px 10px;color:#39b5fb}
+.houses .layui-layer-content .shen table tbody tr:hover a.see{width:100px;height:30px;padding:5px 10px;border-radius:3px;background:#0da3f8;line-heoght:30px;color:#fff;}
+.houses .layui-layer-content .shen{min-height:80px;margin:0px auto 20px;background:#fff;border:1px solid #e5e5e5;}
+.houses .layui-layer-content .shen p.title{height:50px;line-height:50px;font-size:14px;border-bottom:1px solid #e5e5e5;text-indent:20px;color:#666;}
+.houses .layui-layer-content .shen p i{color:#01a3f6;}
+.houses .layui-layer-content .shen p.prompt{font-size:18px;color:#333;text-align:center;height:30px;line-height:30px;margin-top:45px;}
+.houses .layui-layer-content .shen p.sub{width:120px;height:35px;line-height:35px;margin:40px auto 35px;text-align:center;}
+.houses .layui-layer-content .shen p.sub a{width:120px;height:35px;line-height:35px;display:block;border-radius:3px;padding:0px 5px;color:#fff;background:#0da3f8;}
+.houses .layui-layer-content .shen table{height:auto;}
+.houses .layui-layer-content .shen table tr{height:50px;line-height:50px;border-bottom:1px solid #e5e5e5;}
+.houses .layui-layer-content .shen table thead tr th p{color:#999;text-align:center;}
+.houses .layui-layer-content .shen table thead tr th p.head{text-align:left;padding:0 20px;}
+.houses .layui-layer-content .shen table tbody tr:hover{background:#edf4fe;}
+.houses .layui-layer-content .shen table tbody tr:last-child{border-bottom:0px solid #e5e5e5;}
+.houses .layui-layer-content .shen table tbody tr.cancel:hover,.shen table tbody tr.cancel td p a:hover{background:none;}
+.houses .layui-layer-content .shen table tbody tr.cancel td p,.shen table tbody tr.cancel td p a{color:#999 !important;}
+.houses .layui-layer-content .shen table tbody tr td p{color:#333;text-align:center;}
+.houses .layui-layer-content .shen table tbody tr td p.head{width:30px;height:30px;text-align:left;margin:0 20px;}
+.houses .layui-layer-content .shen table tbody tr td p.head img{width:30px;height:30px;border-radius:50%;}
+.houses .layui-layer-content .shen table tbody tr td p.fail{color:#f45752;}
+.houses .layui-layer-content .shen table tbody tr td p.meet a{width:100px;height:30px;padding:5px 10px;color:#39b5fb}
+.houses .layui-layer-content .shen table tbody tr:hover a.see{width:100px;height:30px;padding:5px 10px;border-radius:3px;background:#0da3f8;line-heoght:30px;color:#fff;}
+
+
+/*------产品详情-----*/
+.houses .layui-layer-content .prduct-r{float:left;}
+.houses .layui-layer-content .prduct-r .top{width:560px;height:50px;line-height:50px;padding:0px 20px 0px 20px;}
+.houses .layui-layer-content .prduct-r .top p.title{width:150px;height:50px;line-height:50px;float:left;font-size:14px;color:#666;}
+.houses .layui-layer-content .prduct-r .add{width:560px;height:60px;border:1px dashed #e5e5e5;background:#fcfcfc;margin:0px 20px;text-align:center;}
+.houses .layui-layer-content .prduct-r .add a{font-size:16px;color:#0da3f8;height:20px;line-height:20px;margin-top:20px;display:block;background:url(../images/details.png) left 180px top -189px no-repeat;}
+.houses .layui-layer-content .prduct-r .editor{width:560px;margin:0px 20px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l{width:500px;min-height:15px;float:left;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l p{width:480px;min-height:15px;font-size:12px;color:#333;line-height:24px;margin:0px 10px 0px 10px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{width:60px;min-height:15px;float:left;text-align:center;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{font-size:12px;color:#0da3f8;}
+.houses .layui-layer-content .prduct-r .editor .editor-r a{font-size:12px;color:#0da3f8;line-height:18px;}
+.houses .layui-layer-content .prduct-r{float:left;}
+.houses .layui-layer-content .prduct-r .top{width:360px;height:50px;line-height:50px;padding:0px 20px 0px 20px;}
+.houses .layui-layer-content .prduct-r .top p.title{width:150px;height:50px;line-height:50px;float:left;font-size:14px;color:#666;}
+.houses .layui-layer-content .prduct-r .add{width:360px;height:60px;border:1px dashed #e5e5e5;background:#fcfcfc;margin:0px 20px 0px 20px;text-align:center;}
+.houses .layui-layer-content .prduct-r .add a{font-size:16px;color:#0da3f8;height:20px;line-height:20px;margin-top:20px;display:block;background:url(../images/details.png) left 86px top -190px no-repeat;}
+.houses .layui-layer-content .prduct-r .editor{width:360px;margin:0px 20px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l{width:300px;min-height:15px;float:left;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l p{width:280px;min-height:15px;font-size:12px;color:#333;line-height:24px;margin:0px 10px 0px 10px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{width:60px;min-height:15px;float:left;text-align:center;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{font-size:12px;color:#0da3f8;}
+.houses .layui-layer-content .prduct-r .editor .editor-r a{font-size:12px;color:#0da3f8;line-height:18px;}
+.houses .layui-layer-content .prduct-r{float:left;}
+.houses .layui-layer-content .prduct-r .top{width:260px;height:50px;line-height:50px;padding:0px 20px;}
+.houses .layui-layer-content .prduct-r .top p.title{width:150px;height:50px;line-height:50px;float:left;font-size:14px;color:#666;}
+.houses .layui-layer-content .prduct-r .add{width:260px;height:60px;border:1px dashed #e5e5e5;background:#fcfcfc;margin:0px 20px;text-align:center;}
+.houses .layui-layer-content .prduct-r .add a{font-size:16px;color:#0da3f8;height:20px;line-height:20px;margin-top:20px;display:block;background:url(../images/details.png) left 38px top -189px no-repeat;}
+.houses .layui-layer-content .prduct-r .editor{width:260px;margin:0px 20px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l{width:200px;min-height:15px;float:left;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l p{width:180px;min-height:15px;line-height:24px;font-size:12px;color:#333;margin:0px 10px 0px 10px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{width:60px;min-height:15px;float:left;text-align:center;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-r{font-size:12px;color:#0da3f8;}
+.houses .layui-layer-content .prduct-r .editor .editor-r a{font-size:12px;color:#0da3f8;line-height:24px;}
+/*-----展示信息------*/
+.houses .layui-layer-content .prduct-r{width:298px;float:left;padding-bottom:20px;}
+.houses .layui-layer-content .prduct-r .prompt{width:298px;margin:auto;text-align:center;padding-bottom:10px;}
+.houses .layui-layer-content .prduct-r .prompt p{font-size:14px;color:#333;}
+.houses .layui-layer-content .prduct-r .prompt a{min-width:60px;width:60px;height:30px;line-height:30px;margin-top:10px;background:#0ca4f7;border-radius:3px ;color:#fff;font-size:12px;display:block;position:relative;left:40%;}
+.houses .layui-layer-content .prduct-r .top{width:260px;height:30px;line-height:30px;padding:10px 20px;}
+.houses .layui-layer-content .prduct-r .top p.title{width:150px;height:30px;line-height:30px;float:left;font-size:14px;color:#666;}
+.houses .layui-layer-content .prduct-r .add{width:260px;height:60px;border:1px dashed #e5e5e5;background:#fcfcfc;margin:0px 20px;text-align:center;}
+.houses .layui-layer-content .prduct-r .add a{font-size:16px;color:#0da3f8;height:20px;line-height:20px;margin-top:20px;display:block;background:url(../images/details.png) left 38px top -189px no-repeat;}
+.houses .layui-layer-content .prduct-r .editor{width:260px;margin:0px 20px;font-size:12px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l{width:260px;min-height:15px;float:left;margin:10px 0px 0px 0px;}
+.houses .layui-layer-content .prduct-r .editor .editor-l p{width:240px;min-height:15px;line-height:24px;font-size:12px;color:#333;margin:0px 5px 0px 5px;}
+.houses .layui-layer-content .prduct-r ul{margin:0px 0px 0px 10px;/*min-height:150px;*/}
+.houses .layui-layer-content .prduct-r ul li{width:50px;height:50px;float:left;margin:10px 10px;}
+.houses .layui-layer-content .prduct-r ul li.upbtn{width:60px;height:60px;background:url(/bate2.0/images/details.png) top -420px left -42px no-repeat;}
+.houses .layui-layer-content .prduct-r ul li i{width:15px;height:15px;position:absolute;background:url(/bate2.0/images/delete.png) no-repeat;}
+.houses .layui-layer-content .prduct-r ul li img{width:50px;height:50px;}
+.houses .layui-layer-content .prduct-r .butn{width:300px;height:100px;text-align:center;position:relative;top:35%;}
+.houses .layui-layer-content .prduct-r .butn a{min-width:60px;width:60px;height:30px;line-height:30px;background:#0ca4f7;border-radius:3px ;color:#fff;font-size:12px;display:block;position:relative;left:40%;margin-top:20px;}

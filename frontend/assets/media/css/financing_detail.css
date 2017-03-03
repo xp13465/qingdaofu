@@ -1,0 +1,73 @@
+﻿@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,button,input { margin:0; padding:0; }
+fieldset, img,button,input {padding:0;margin:0; }
+i,em{font-style:normal;}
+ul{list-style: none;}
+table { border-collapse:collapse; }
+a { color:#333; text-decoration:none; }
+body{
+	background-color:#fff;
+	font-family: "微软雅黑";
+}
+.detail{
+	width: 970px;
+	height: auto;
+        font-size:14px;
+	letter-spacing:2px;
+}
+.look{
+	width: 970px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size:18px;
+	color:#5b6580;
+}
+.finance p{
+	padding-left: 50px;
+	line-height: 40px;
+}
+.detail i{
+	height: 7px;
+	width: 969px;
+	display: block;
+	background:url(../images/arrow_bj.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+.detail span{
+	line-height: 40px;
+	padding-left: 60px;
+	font-size: 18px;
+	color:#0065B3;
+}
+.mytable table{
+	width: 865px;
+	text-align: center;
+	background-color: #fff;
+	margin:0 auto;
+}
+.mytable table th{
+	height: 54px;
+	background-color:#D9DEE4;
+}
+.mytable td,.mytable tr{
+	border:1px solid #ccc;
+	height: 36px;
+}
+.mytable table td a{
+	text-decoration: underline;
+	color:#0065B3;
+}
+.affirm a{
+	width: 110px;
+	height: 34px;
+	margin:0 auto;
+	background-color: #0065B3;
+	display: block;
+	color:#fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 18px;
+	border-radius: 2px;
+	margin-top: 20px;
+}

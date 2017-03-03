@@ -1,0 +1,70 @@
+<?php
+namespace backend\controllers;
+
+use Yii;
+use backend\components\BackController;
+use yii\widgets\ActiveForm;
+use common\models\News;
+use common\models\ClassicCase;
+use yii\db\ActiveRecord;
+use yii\helpers;
+use common\components;
+use yii\data\Pagination;
+use yii\filters\VerbFilter;
+/**
+ * Site controller
+ */
+class AdminController extends BackController
+{
+
+
+    public $layout = 'main';
+
+    /**
+     * @inheritdoc
+     */
+    public function behaviors()
+    {
+        return [
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                ],
+            ],
+        ];
+    }
+
+    public function actionProfile(){
+        $data = \backend\models\Admin::findOne(['id'=>Yii::$app->user->getId()]);
+
+        return $this->render("profile",['data'=>$data]);
+    }
+
+    public function actionList(){
+
+        $MC = \backend\models\Admin::find()->where(true)->count();
+        $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$MC]);
+        $data = \backend\models\Admin::find()->where(true)->offset($pagination->offset)->limit($pagination->limit)->all();
+        return $this->render('list',['data'=>$data,'pagination'=>$pagination]);
+    }
+
+    public function actionAdduser(){
+
+        if(Yii::$app->request->isPost){
+            $username = Yii::$app->request->post('username');
+            $password_hash = Yii::$app->security->generatePasswordHash(Yii::$app->request->post('password_hash'));
+            $admin = new \backend\models\Admin;
+            $admin->password_hash = $password_hash;
+            $admin->auth_key = Yii::$app->security->generateRandomString();;
+            $admin->username = $username;
+            $admin->status = 10;
+            $admin->created_at = time();
+            $admin->updated_at = time();
+            if($admin->save()){
+                return $this->redirect("/admin/list");
+            }
+        }
+
+        return $this->render("adduser");
+    }
+}

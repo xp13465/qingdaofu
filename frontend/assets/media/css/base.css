@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;padding: 0;}
+body{font-size: 14px; font-family: "微软雅黑"!important; }
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+fieldset,img{border:0;}
+input,textarea{font-family: "微软雅黑";}
+textarea{ border:1px solid #ccc;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+q:before,q:after{content:'';}
+a:focus,input,textarea{/* outline-style:none; */ }
+button{ border:none;}
+input[type="button"]{ cursor: pointer;}
+input[type="text"],input[type="password"],textarea{outline-style:none;-webkit-appearance:none;}
+textarea{resize:none;}
+address,caption,cite,code,dfn,em,i,th,var,b{font-style:normal;font-weight:normal;}
+legend{color:#000;}
+abbr,acronym{border:0;font-variant:normal;}
+a{text-decoration:none;cursor: pointer;color:#5dc2fa; }
+a:hover{text-decoration:none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clear{clear:both;height:0;font:0/0 Arial;visibility:hidden;}
+.block{display: block;}
+.color{ color: #0061AC;}
+.display{ display: inline-block;*display: inline;*zoom:1;}
+.mr{ margin-top: -5px;}
+.ml{ margin-left: -79px;}
+.error{color:red; font-size: 14px;}
+.pl{ padding-left: 20px;width:800px; background: #fff; letter-spacing: 2px;}
+.fl{ float: left;}
+.fr{ float: right;}

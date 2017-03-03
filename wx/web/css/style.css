@@ -1,0 +1,42 @@
+.wheel-button {
+ position: relative;
+ overflow:hidden;
+}
+.wheel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px; 
+  height: 200px; 
+  visibility: hidden;
+  position: relative;
+  display: none;
+}
+
+.wheel li {
+  overflow: hidden;
+  float:left;
+  position:absolute;
+}
+
+.wheel li a {
+  display: block;
+}
+  
+.wheel-button, .wheel-button:visited {
+  padding: 10px 11px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  color: white;
+  display: block;
+  margin: 80px auto 20px;
+}
+.wheel li a, .wheel li a:visited{
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+
+
